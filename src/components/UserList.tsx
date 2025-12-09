@@ -18,7 +18,7 @@ const UserList = memo(function UserList({
             cursor: "pointer",
             padding: 4,
             marginBottom: 4,
-            backgroundColor: user.id === selectedUserId ? "black" : "white",
+            backgroundColor: user.id === selectedUserId ? "khaki" : "white",
           }}
         >
           {user.name} ({user.city})
