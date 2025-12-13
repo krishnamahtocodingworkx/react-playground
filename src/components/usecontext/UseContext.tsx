@@ -6,6 +6,7 @@ const AppContext = createContext<{ name: string; age: number }>({
 });
 
 const AppProvider = ({ children }: { children: React.ReactNode }) => {
+  // global state
   const userData = {
     name: "Mukul Karnwal",
     age: 26,

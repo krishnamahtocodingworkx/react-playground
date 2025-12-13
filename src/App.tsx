@@ -1,23 +1,23 @@
 import "./App.css";
-import Parent from "./Parent";
 // import UseState from "./components/usestate/UseState";
 // import UseStateObject from "./components/usestate/UseStateObject";
 // import UseEffect from "./components/useeffect/UseEffect";
 // import CleanUp from "./components/useeffect/CleanUp";
+import Parent from "./Parent";
 
 const App: React.FC = () => {
-  const userData = {
-    name: "Mukul Karnwal",
-    age: 26,
-  };
+  // const userData = {
+  //   name: "Mukul Karnwal",
+  //   age: 26,
+  // };
   return (
     <>
       {/* <UseState /> */}
       {/* <UseStateObject /> */}
       {/* <UseEffect /> */}
       {/* <CleanUp /> */}
-      {/* <Parent /> */}
-      <Parent user={userData} />
+      {/* <Parent user={userData} /> */}
+      <Parent />
     </>
   );
 };
