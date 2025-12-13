@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./style.css";
 
 const CleanUp = () => {
   const [widthCount, setWidthCount] = useState(window.screen.width);
@@ -6,13 +7,14 @@ const CleanUp = () => {
   const currentScreenWidth = () => {
     setWidthCount(() => window.innerWidth);
   };
-
+  // will run after every render
   useEffect(() => {
     window.addEventListener("resize", currentScreenWidth);
     return () => {
-      window.removeEventListener("resize", currentScreenWidth);
+      window.removeEventListener("resize", currentScreenWidth); // cleanup function -> it is called before the next render
     };
-  });
+  }); // no dependency passed -> runs after every render
+
   return (
     <>
       <div className="container">
