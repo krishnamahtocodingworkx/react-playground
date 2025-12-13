@@ -1,9 +1,6 @@
-import { createContext, useContext } from "react";
+import { createContext } from "react";
 
-const AppContext = createContext<{ name: string; age: number }>({
-  name: "",
-  age: 0,
-});
+const AppContext = createContext({ name: "", age: 0 });
 
 const AppProvider = ({ children }: { children: React.ReactNode }) => {
   // global state
@@ -15,9 +12,4 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
   return <AppContext.Provider value={userData}>{children}</AppContext.Provider>;
 };
 
-// custom hook
-const useGlobalContext = () => {
-  return useContext(AppContext);
-};
-
-export { AppContext, AppProvider, useGlobalContext };
+export { AppContext, AppProvider };

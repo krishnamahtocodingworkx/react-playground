@@ -6,6 +6,7 @@ const Parent = () => {
   return (
     <div className="parent-container">
       {/* Parent = My name is {name} and my age is {age}. */}
+      Parent component is here.
       <Child />
       {/* we are doing the cloning of an object here */}
       {/* <Child {...user} /> */}
