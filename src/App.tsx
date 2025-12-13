@@ -1,11 +1,13 @@
 import "./App.css";
+import UseState from "./components/usestate/UseState";
+// import UseStateObject from "./components/usestate/UseStateObject";
 
 const App: React.FC = () => {
-
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <UseState />
+      {/* <UseStateObject /> */}
+    </>
   );
 };
 
