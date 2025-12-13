@@ -1,10 +1,13 @@
 import "./App.css";
-import ReducerHook from "./components/usereducer/ReducerHook";
 // import UseState from "./components/usestate/UseState";
 // import UseStateObject from "./components/usestate/UseStateObject";
 // import UseEffect from "./components/useeffect/UseEffect";
 // import CleanUp from "./components/useeffect/CleanUp";
 // import Parent from "./Parent";
+// import ReducerHook from "./components/usereducer/ReducerHook";
+import RefHook1 from "./components/useref/RefHook1";
+import RefHook from "./components/useref/RefHook";
+
 
 const App: React.FC = () => {
   // const userData = {
@@ -19,7 +22,9 @@ const App: React.FC = () => {
       {/* <CleanUp /> */}
       {/* <Parent user={userData} /> */}
       {/* <Parent /> */}
-      <ReducerHook />
+      {/* <ReducerHook /> */}
+      <RefHook1 />
+      <RefHook />
     </>
   );
 };
