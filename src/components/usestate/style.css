@@ -140,6 +140,23 @@
   box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
 }
 
+.btn-primary:disabled,
+.btn:disabled {
+  background-color: #6c757d;
+  color: #ffffff;
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-primary:disabled:hover,
+.btn:disabled:hover {
+  background-color: #6c757d;
+  transform: none;
+  box-shadow: none;
+}
+
 .card-body > div:last-child {
   margin-top: 1.5rem;
   padding-top: 1.5rem;
@@ -151,28 +168,4 @@
   font-size: 1rem;
   color: #555;
   line-height: 1.6;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .container {
-    padding: 1rem;
-  }
-
-  .container h1 {
-    font-size: 2.5rem;
-  }
-
-  .container button {
-    padding: 0.625rem 1.5rem;
-    font-size: 1.125rem;
-  }
-
-  .container .card {
-    padding: 1.5rem;
-  }
-
-  .card-title {
-    font-size: 1.75rem;
-  }
 }
