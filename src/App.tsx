@@ -1,4 +1,5 @@
 import "./App.css";
+import MemoHook from "./components/usememo/MemoHook";
 // import UseState from "./components/usestate/UseState";
 // import UseStateObject from "./components/usestate/UseStateObject";
 // import UseEffect from "./components/useeffect/UseEffect";
@@ -7,7 +8,7 @@ import "./App.css";
 // import ReducerHook from "./components/usereducer/ReducerHook";
 // import RefHook1 from "./components/useref/RefHook1";
 // import RefHook from "./components/useref/RefHook";
-import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
+// import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 
 const App: React.FC = () => {
   // const userData = {
@@ -25,7 +26,8 @@ const App: React.FC = () => {
       {/* <ReducerHook /> */}
       {/* <RefHook1 /> */}
       {/* <RefHook /> */}
-      <LayoutEffect />
+      {/* <LayoutEffect /> */}
+      <MemoHook />
     </>
   );
 };
