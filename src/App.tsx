@@ -5,9 +5,9 @@ import "./App.css";
 // import CleanUp from "./components/useeffect/CleanUp";
 // import Parent from "./Parent";
 // import ReducerHook from "./components/usereducer/ReducerHook";
-import RefHook1 from "./components/useref/RefHook1";
-import RefHook from "./components/useref/RefHook";
-
+// import RefHook1 from "./components/useref/RefHook1";
+// import RefHook from "./components/useref/RefHook";
+import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 
 const App: React.FC = () => {
   // const userData = {
@@ -23,8 +23,9 @@ const App: React.FC = () => {
       {/* <Parent user={userData} /> */}
       {/* <Parent /> */}
       {/* <ReducerHook /> */}
-      <RefHook1 />
-      <RefHook />
+      {/* <RefHook1 /> */}
+      {/* <RefHook /> */}
+      <LayoutEffect />
     </>
   );
 };
