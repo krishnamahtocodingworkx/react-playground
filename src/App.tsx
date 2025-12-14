@@ -3,13 +3,13 @@ import "./App.css";
 // import UseStateObject from "./components/usestate/UseStateObject";
 // import UseEffect from "./components/useeffect/UseEffect";
 // import CleanUp from "./components/useeffect/CleanUp";
-// import Parent from "./Parent";
+import Parent from "./Parent";
 // import ReducerHook from "./components/usereducer/ReducerHook";
 // import RefHook1 from "./components/useref/RefHook1";
 // import RefHook from "./components/useref/RefHook";
 // import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 // import MemoHook from "./components/usememo/MemoHook";
-import Callbackhook from "./components/usecallback/CallbackHook";
+// import Callbackhook from "./components/usecallback/CallbackHook";
 
 const App: React.FC = () => {
   // const userData = {
@@ -23,13 +23,13 @@ const App: React.FC = () => {
       {/* <UseEffect /> */}
       {/* <CleanUp /> */}
       {/* <Parent user={userData} /> */}
-      {/* <Parent /> */}
+      <Parent />
       {/* <ReducerHook /> */}
       {/* <RefHook1 /> */}
       {/* <RefHook /> */}
       {/* <LayoutEffect /> */}
       {/* <MemoHook /> */}
-      <Callbackhook />
+      {/* <Callbackhook /> */}
     </>
   );
 };
