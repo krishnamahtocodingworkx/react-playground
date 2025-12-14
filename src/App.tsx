@@ -1,5 +1,4 @@
 import "./App.css";
-import MemoHook from "./components/usememo/MemoHook";
 // import UseState from "./components/usestate/UseState";
 // import UseStateObject from "./components/usestate/UseStateObject";
 // import UseEffect from "./components/useeffect/UseEffect";
@@ -9,6 +8,8 @@ import MemoHook from "./components/usememo/MemoHook";
 // import RefHook1 from "./components/useref/RefHook1";
 // import RefHook from "./components/useref/RefHook";
 // import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
+// import MemoHook from "./components/usememo/MemoHook";
+import Callbackhook from "./components/usecallback/CallbackHook";
 
 const App: React.FC = () => {
   // const userData = {
@@ -27,7 +28,8 @@ const App: React.FC = () => {
       {/* <RefHook1 /> */}
       {/* <RefHook /> */}
       {/* <LayoutEffect /> */}
-      <MemoHook />
+      {/* <MemoHook /> */}
+      <Callbackhook />
     </>
   );
 };
